@@ -33,7 +33,7 @@ group-minimum-digits = 3
 \begin{document}
 \maketitle
 
-\section*{Letra}
+\section*{Instrumentos de Renda Fixa}
 
 Pense no Sistema Financeiro Nacional (SFN) como um \enquote{motor de automóvel} com três grandes partes:
 
