@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage{kpfonts}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {img/} }
+\usepackage{amsmath}
+\usepackage{array}
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\usepackage{multirow}
+
+
+\title{Sistema Financeiro Nacional}
+\author{FIA Business School}
+\begin{document}
+\maketitle
+
+\section*{Estrutura}
+
+\section*{Órgãos Reguladores e Fiscalizadores}
+
+\subsection*{Conselho Monetário Nacional (CMN)}
+
+\subsection*{Conselho Nacional de Seguros Privados (CNSP)}
+
+\subsection*{Conselho Nacional de Previdência Complementar (CNPC)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

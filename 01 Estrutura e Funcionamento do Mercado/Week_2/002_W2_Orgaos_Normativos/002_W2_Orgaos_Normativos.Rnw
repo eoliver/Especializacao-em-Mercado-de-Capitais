@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage{kpfonts}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {img/} }
+\usepackage{amsmath}
+\usepackage{array}
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\usepackage{multirow}
+
+
+\title{Autarquias e Órgãos Fiscalizadores e Controladores Integrantes do SFN}
+\author{FIA Business School}
+\begin{document}
+\maketitle
+
+\section*{Introdução}
+
+\section*{Banco Central do Brasil (BACEN)}
+
+\section*{Comissão de Valores Mobiliários (CVM)}
+
+\section*{Superintendência de Seguros Privados (SUSEP)}
+
+\section*{Superintendência Nacional de Previdência Complementar (PREVIC)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

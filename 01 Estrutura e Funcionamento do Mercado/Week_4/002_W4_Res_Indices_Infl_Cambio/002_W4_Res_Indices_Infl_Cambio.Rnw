@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage{kpfonts}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {img/} }
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\usepackage{multirow}
+
+
+\title{Sistema Financeiro Nacional}
+\author{FIA Business School}
+\begin{document}
+\maketitle
+
+\section*{Índices de Inflação}
+
+\begin{table}[h]
+    \caption{Interpretive and critical research paradigms for design research (adopted from \ldots%\citealt{crouch2012doing}
+    )}
+    \label{crouch}
+    \begin{tabular}{  l  p{3.4cm}  p{3.4cm} }
+        \toprule
+\textbf{Research Paradigm}      
+& \textbf{Interpretive}   
+& \textbf{Critical} \\\midrule
+Epistemology / Ontology 
+& It is only possible to represent aspects of social reality. Researcher is a subjective observer. The world is open to interpretation.
+& The world is characterised by inequalities because the lifeworld is systemically colonised. Ideology is all-pervasive. Knowledge implies action. \\\hline
+Researcher’s role       
+& Engage with other people’s lives Enable the ‘voices’ of others to be heard                         
+& Critically observe design practices Engage with other people’s lives Initiate or facilitate change  \\\hline
+Research purpose        
+& To explore the habitus of designers and users, in,interaction with the field To interpret design practices, objects and systems To understand how the designer or the user engages with design practices, objects and systems 
+& To disrupt, emancipate, transform the habitus and field of design To explore how the user is affected by design practices, objects and systems To change design practices, \\\hline
+objects and systems &
+Underlying values       
+& Plurality \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

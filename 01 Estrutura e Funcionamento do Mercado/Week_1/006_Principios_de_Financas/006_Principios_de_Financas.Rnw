@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage{kpfonts}
+\usepackage{indentfirst}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {img/} }
+\usepackage{amsmath}
+\usepackage{array}
+
+\usepackage[autostyle]{csquotes}
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\usepackage{multirow}
+
+
+\title{Princípios de Finanças}
+\author{FIA Business School}
+\begin{document}
+\maketitle
+
+\section*{O que são Finanças Corporativas?}
+
+Suponha que você decida abrir uma empresa para fazer bolas de futebol. Para isso, você contrata 
+gerentes para comprar matéria-prima e monta uma força de trabalho que produzirá e venderá bolas 
+de futebol prontas. Na linguagem das finanças, você faz um investimento em ativos como estoque, 
+maquinário, terreno e mão de obra. A quantia de dinheiro que você investe em ativos deve 
+corresponder a uma quantia igual de dinheiro levantada pelo financiamento. Quando você começa a 
+vender bolas de futebol, sua empresa vai gerar dinheiro. Essa é a base da criação de valor. 
+
+\section*{A Importância dos Fluxos de Caixa}
+
+\section*{O que é Investimento?}
+
+\section*{Tipos de Investmento}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

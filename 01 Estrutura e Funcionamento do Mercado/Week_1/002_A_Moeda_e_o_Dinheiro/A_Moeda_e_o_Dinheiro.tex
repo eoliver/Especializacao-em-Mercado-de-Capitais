@@ -1,0 +1,204 @@
+\documentclass{article}\usepackage[]{graphicx}\usepackage[]{xcolor}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[brazil]{babel}
+\usepackage{kpfonts}
+\usepackage{indentfirst}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {img/} }
+\usepackage{amsmath}
+\usepackage{array}
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\usepackage{multirow}
+
+
+\title{A Moeda e o Dinheiro}
+\author{FIA Business School}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\maketitle
+\section*{Introdução}
+
+Os \textbf{meios de pagamento} representam todos os haveres com liquidez imediata em poder do público, 
+exceto no setor bancário. É uma medida de liquidez do sistema econômico muito utilizado pelo Bacen.\par
+
+Existem muitos ativos (depósitos a prazo, bônus do Bacen, caderneta de poupança, entre outros) que, 
+apesar de não serem considerados moeda em sentido estrito, apresentam algumas características da 
+moeda em sentido amplo. Costuma-se chamá-los \textit{quase-moeda}, pois podem, sem grandes problemas, ser 
+trocados (transformados em moeda).\par
+
+\section*{Identificação dos Meios de Pagamentos}
+
+O \textbf{M4} é o conceito de moeda mais amplo que se tem numa economia e, quando o volume de M4 for baixo, 
+significa que há restrições às funções de intermediação financeira do sistema bancário. O aumento 
+de M4 em relação a \textbf{M1} costuma ser observado quando se evidenciam processos inflacionários na economia, 
+ocorrendo aquilo a que se denomina \textbf{desmonetização}. O contrário (\textbf{monetização}) é verificado quando a 
+inflação se reduz, minimizando o custo das pessoas em manter maior volume de moeda M1.\par
+
+\textbf{O M1 não gera rendimento algum para as pessoas, então por que o fazem?}\par
+
+\textbf{Motivo}: negócios ou transações (sincronização entre pagamentos e recebimentos) é explicado pela 
+necessidade de as pessoas manterem dinheiro disponível para efetuar seus pagamentos correntes, 
+determinados por operações normais e certas. São os vencimentos que ocorrem previamente aos 
+recebimentos e os vencimentos dos compromissos financeiros que determinam a demanda por caixa 
+pelas pessoas e empresas. Por exemplo, podemos dizer que alguns ajustes nas regras do jogo podem 
+ajudar a melhorar o \textbf{fluxo de pagamento}, como a possibilidade de datas diversas para a quitação 
+das obrigações, ou também a utilização de cheque para pagamento, ou ainda a utilização de cartão 
+de crédito para pagamentos.\par
+
+\textbf{Precaução} (despesas imprevistas e indeterminadas): o público pode acumular dinheiro em mãos e 
+evitar aplicações financeiras quando há expectativas negativas na economia e medo de que ocorra 
+algum problema com o sistema financeiro nacional (o passado recente da história brasileira dá 
+grandes motivos para esse tipo de comportamento das pessoas), pois o público e as firmas precisam 
+ter uma certa \textbf{reserva em moeda} para fazer face aos pagamentos imprevistos ou aos atrasos em 
+recebimentos esperados.\par
+
+\textbf{Especulação} (oportunidades de negócios): quando existem grandes oportunidades de negócios, as 
+pessoas tendem a manter a moeda livre de qualquer embaraço para que possa ser utilizada 
+imediatamente. Isso ocorre muito no Brasil, pois temos uma política fiscal que força esse 
+comportamento, por exemplo, para a maioria de aplicações financeiras de renda fixa existe um 
+imposto chamado IOF (imposto sobre operações financeiras) que tributa o rendimento da aplicação 
+caso seja resgatado em curto prazo.\par
+
+\section*{Velocidade de Circulação da Moeda}
+
+Para acompanhar esse movimento, é preciso saber a \textit{velocidade de circulação da moeda}, também 
+chamada de velocidade-renda da moeda. Esse indicador aponta o número de vezes que a moeda passa 
+de mãos em mãos, num certo período, gerando produção e renda. Essa velocidade  de circulação da 
+moeda pode ser calculada para as várias definições de meio de pagamento (M1, M2, M3 e M4). A 
+mais utilizada é a M1. Esse valor é praticamente estável em curto prazo e somente tem alterações 
+consideráveis quando há:\par
+
+\textbf{mudança de hábito da coletividade} -- quando utilizamos cheque ou cartão de crédito, 
+menor é a necessidade de papel-moeda;\par
+
+\textbf{verticalização da economia} -- quando empresas resolvem produzir componentes utilizados na 
+produção de seus bens e serviços, não há necessidade de comprar de outra empresa e, consequentemente, 
+não há necessidade de ter moedas em mãos.\par
+
+As razões têm um impacto muito lento de alteração da velocidade de circulação da moeda. Então, o que 
+pode acelerar ou retardar a velocidade em curto prazo? Dois são os fatores que contribuem para esse salto:\par
+
+\begin{itemize}
+
+\item variações nas taxas de juros do mercado e
+
+\item expectativas de inflação.
+
+\end{itemize}
+
+Uma velocidade de circulação mais lenta revela demanda decrescente por moeda, indicando que as pessoas 
+estão reduzindo seus encaixes monetários. Se a demanda por moeda aumentar, é de se esperar que os meios 
+de pagamentos circularão mais lentamente.\par
+
+\section*{Efeito Multiplicador de Moeda}
+
+Os bancos comerciais e os bancos múltiplos com carteira comercial possuem a capacidade de criarem moeda 
+por meio do chamado \textit{efeito multiplicador da moeda}. Esse procedimento ocorre da seguinte forma: os 
+recursos captados por esses bancos são registrados pela contabilidade na conta caixa (ativo) e na conta 
+depósito à vista (passivo), ou seja, esse caixa que entrou para o banco pode ser aplicado como empréstimo 
+a terceiros que pegará esse dinheiro e colocará em circulação na economia. Em outras palavras, podemos 
+dizer que temos um passivo (depósito à vista) criando moeda na economia (empréstimo).\par
+
+Esse ciclo pode repetir-se, se o dinheiro do emprestado voltar a um banco com carteira comercial. 
+Para mostrar o mecanismo de expansão monetária (ou seja, da oferta de moeda por meio dos bancos com 
+carteiras comerciais), vamos supor que parte das reservas \(r\) dos depósitos à vista feitos no banco esteja 
+como reservas (depósito compulsório) no Bacen e parte (\(1-r\)) esteja livre para o banco emprestar ao público 
+em geral. Devemos supor que quem recebe empréstimo desse dinheiro (\(1-r\)) livre no Banco decide usar uma 
+parte \(c\) e guardar outra (\(1-c\)); esse dinheiro pode ser guardado em um outro banco comercial. Esse novo 
+banco reterá parte desse dinheiro como depósito compulsório e emprestará a outras pessoas. Note que esse 
+ciclo pode não ter fim. Perceba que tal movimentação forma justamente uma fórmula de \textbf{Progressão Geométrica}, 
+portanto podemos dizer que o \textbf{multiplicador monetário} pode ser explicado pela seguinte fórmula:\par
+
+\begin{equation}\label{eq1}
+\begin{split}
+    M   &=  \frac{ 1 }{ 1 - ( 1 - c )( 1 - r ) }
+\end{split}
+\end{equation}
+
+Intuitivamente, o efeito multiplicador de moeda varia inversamente em relação às taxas de reservas ou à 
+taxa de retenção do público. Quanto mais os bancos forem obrigados a reter moeda em caixa (maior \(r\)), 
+menos eles poderão emprestar ao público, e menor será o efeito multiplicador da moeda. Da mesma forma, 
+quanto maior for a utilização de moeda pelo público, ou seja, a moeda não é depositada em banco comercial, 
+chamado de retenção de moeda pelo público (maior \(c\)) também, menos os Bancos poderão emprestar ao público 
+e menor será o efeito multiplicador da moeda. É importante salientar que quanto mais escassa for a moeda 
+em poder dos bancos, \textbf{maior será a taxa de juros adotada pelo mercado} (lei da oferta e da procura).\par
+
+A base monetária no passivo equivale a dizer que se trata de todas as exigibilidades monetárias líquidas 
+do Bacen perante o público não bancário e os bancos comerciais. Podemos dizer que a base monetária é 
+representada pela diferença entre o ativo total (aplicações) e os recursos não monetários obtidos pelo Bacen.\par
+
+Por exemplo, quando se verifica um resultado líquido positivo no fluxo de entradas e saídas de moedas 
+estrangeiras no Brasil, o saldo da base monetária expande-se pela maior oferta de moeda nacional convertida. 
+O Bacen pode decidir manter a base monetária em mesmos níveis ofertando títulos públicos federais. Agora, se 
+o Bacen emitir moeda ou puser em circulação as que estão em sua posse para reaver os títulos, como 
+consequência aumentará a base monetária em circulação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

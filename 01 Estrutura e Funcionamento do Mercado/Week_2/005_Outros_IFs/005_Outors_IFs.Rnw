@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage{kpfonts}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {img/} }
+\usepackage{amsmath}
+\usepackage{array}
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\usepackage{multirow}
+
+
+\title{Outros Intermediários Financeiros}
+\author{FIA Business School}
+\begin{document}
+\maketitle
+
+\section*{Introdução}
+
+\section*{Administradoras de Consórcios}
+
+\section*{Sociedades de Arrendamento Mercantil (\textit{Leasing})}
+
+\section*{Corretoras de Títulos e Valores Mobiliários, de Câmbio e de Mercadorias}
+
+\section*{Distribuidoras de Títulos e Valores Mobiliários}
+
+\section*{Diferença entre uma CTVM e uma DTVM}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

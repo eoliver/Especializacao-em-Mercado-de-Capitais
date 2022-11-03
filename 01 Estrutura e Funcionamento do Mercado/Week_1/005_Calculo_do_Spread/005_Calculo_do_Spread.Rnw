@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage{kpfonts}
+\usepackage{indentfirst}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {img/} }
+\usepackage{amsmath}
+\usepackage{array}
+
+\usepackage[autostyle]{csquotes}
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\usepackage{multirow}
+
+
+\title{Formação do Spread Bancário}
+\author{FIA Business School}
+\begin{document}
+\maketitle
+
+\section*{Cálculo do Spread}
+
+O spread bancário é medido pela diferença entre o custo de um empréstimo e a remuneração paga ao poupador. 
+Há inúmeros fatores que definem o spread cobrado pelo banco, destacando-se principalmente a liquidez, 
+risco da operação e garantias oferecidas e maturidade.
+
+No Brasil, os fatores que compõem o spread cobrado pelos bancos são apresentados a seguir:
+
+\begin{itemize}
+
+  \item taxa de captação do banco, incluindo o custo do depósito compulsório sobre captação;
+  
+  \item impostos indiretos e contribuições, como PIS, Cofins e IOF. Inclui-se neste item também a 
+        contribuição que as instituições financeiras devem fazer ao Fundo Garantidor do Empréstimo 
+        (FGC), calculada por meio de um percentual incidente sobre o saldo mensal de captação;
+  
+  \item despesas administrativas e judiciais incorridas pela instituição e calculadas sobre cada 
+        unidade de crédito concedido;
+        
+  \item inadimplência, cuja medida pode ser determinada pela relação sobre a provisão de devedores 
+        duvidosos e o volume de crédito concedido;
+        
+  \item impostos sobre lucros, como Imposto de Renda (IR) e Contribuição Social sobre o Lucro Líquido (CSLL);
+  
+  \item lucro do banco, o qual deve refletir a margem de lucro esperada pela instituição na operação, 
+        que é formada essencialmente pelas condições de negócios do mercado e risco de crédito concedido.
+
+\end{itemize}
+
+
+\section*{Exemplo}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
