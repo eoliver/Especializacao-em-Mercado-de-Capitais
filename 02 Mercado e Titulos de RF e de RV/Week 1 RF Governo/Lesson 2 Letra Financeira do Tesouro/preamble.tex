@@ -1,0 +1,61 @@
+\usepackage[autostyle]{csquotes}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{booktabs,caption}
+\usepackage{float}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{kpfonts}
+\usepackage{multirow}
+\usepackage{parskip}
+\usepackage{siunitx}
+\usepackage{textcomp}
+
+
+
+\geometry{
+paperwidth    = 210 mm,
+paperheight   = 297 mm,
+layoutwidth   = 210 mm,
+layoutheight  = 297 mm,
+layouthoffset = 5 mm,
+layoutvoffset = 5 mm,
+textwidth     = 150 mm,
+textheight    = 200 mm,
+includehead   = false,
+includefoot   = false,
+lmargin       = 25 mm,
+rmargin       = 25 mm,
+tmargin       = 25 mm,
+bmargin       = 25 mm,
+heightrounded
+}
+
+
+\graphicspath{ {img/} }
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\newcommand{\brl}{R\$}
+
+
+
+
+\sisetup{
+round-mode = places,
+round-precision = 2,
+output-decimal-marker={.},
+group-separator ={,},
+group-minimum-digits = 3
+}
+
+
+
