@@ -70,6 +70,8 @@ Onde:
  n      & prazo de vencimento do título, em número de dias úteis.
 \end{conditions}
 
+\newpage
+
 \section*{Exemplo}
 
 Supondo que a LFT tenha sido emitida em 20.10.2015 com vencimento para 19.10.2017 e 
@@ -84,32 +86,47 @@ taxa Selic acumulada no período (20.10.2015 a 19.10.2016) tenha sido de 14\%. C
   
 \end{itemize}
 
+\textbf{Solução}\par
 
-<<input>>=
-dataEmiss <- '2015-10-20'
-dataVenci <- '2017-10-19'
-dataNegoc <- '2016-10-19'
-spreadCre <- 0.002325100
-taxaSelic <- 0.140000000
+Passo 1: entrada de dados:\par
+
+<<input, echo=TRUE>>=
+dataEmiss <- '2015-10-20'   # Data de emissão.
+dataVenci <- '2017-10-19'   # Data de vencimento.
+dataNegoc <- '2016-10-19'   # Data de negociação.
+spreadCre <- 0.002325100    # Spread de crédito.
+taxaSelic <- 0.140000000    # Taxa Selic.
+qLetFinTe <- 1              # Quantidade de Letras Financeiras do Tesouro.
+valNomAtu <- 1000.000000    # Valor nominal atualizado do título.
 @
 
 
-<<>>=
+<<calculo1>>=
+# Cálculo do número de dias
 a = seq(from = as.Date(dataEmiss), to = as.Date(dataNegoc), by = 'day')
- 
-# Here we are finding length of
-# a and we are subtracting 1 because
-# we dont need to include current day.
 nDias <- length(a)-1
 @
 
+Passo 2: cálculo do valor final de resgate:\par
 
-<<>>=
-VP = (1000.00+1000.00*taxaSelic)/(1+spreadCre)
+<<calculo2, echo=TRUE>>=
+valFinRes = ( valNomAtu + valNomAtu * taxaSelic ) / ( 1 + spreadCre )
 @
 
-\Sexpr{VP}
+Passo 3: cálculo da rentabilidade:
 
+<<cálculo3, echo=TRUE>>=
+rentabili = ( valFinRes / valNomAtu ) - 1
+@
+
+\textbf{Respostas}\par
+
+Valor final de resgate: R\$\Sexpr{format(valFinRes, nsmall = 3)}.
+
+Rentabilidade: \Sexpr{format(rentabili*100,nsmall = 3)}\%.
+
+
+%format(signif(divPaymen*(1+divSuGrRa)^i,6),nsmall = 6)
 
 \end{document}
 

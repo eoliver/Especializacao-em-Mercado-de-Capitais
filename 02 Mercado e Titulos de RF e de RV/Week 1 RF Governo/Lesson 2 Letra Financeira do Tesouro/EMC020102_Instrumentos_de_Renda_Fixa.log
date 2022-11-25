@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.4)  23 NOV 2022 10:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.4)  25 NOV 2022 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -677,20 +677,27 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 68
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [1
 
-{c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./EMC020102_Instrumentos_de_Renda_Fixa.aux) ) 
+{c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 133.
+(c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+)
+LaTeX Font Info:    Font shape `T1/jkptt/m/it' in size <10> not available
+(Font)              Font shape `T1/jkptt/m/sl' tried instead on input line 134.
+[2] (./EMC020102_Instrumentos_de_Renda_Fixa.aux) ) 
 Here is how much of TeX's memory you used:
- 11354 strings out of 476911
- 220258 string characters out of 5822885
- 554204 words of memory out of 5000000
- 32473 multiletter control sequences out of 15000+600000
- 521510 words of font info for 100 fonts, out of 8000000 for 9000
+ 11391 strings out of 476911
+ 220850 string characters out of 5822885
+ 552204 words of memory out of 5000000
+ 32499 multiletter control sequences out of 15000+600000
+ 529352 words of font info for 109 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  62i,20n,68p,751b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on EMC020102_Instrumentos_de_Renda_Fixa.pdf (2 pages, 47579 bytes).
+{c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb><c:/Users/eoliv/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on EMC020102_Instrumentos_de_Renda_Fixa.pdf (2 pages, 63726 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

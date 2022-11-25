@@ -108,6 +108,8 @@ Onde:
  n      & prazo de vencimento do título, em número de dias úteis.
 \end{conditions}
 
+\newpage
+
 \section*{Exemplo}
 
 Supondo que a LFT tenha sido emitida em 20.10.2015 com vencimento para 19.10.2017 e 
@@ -122,17 +124,55 @@ taxa Selic acumulada no período (20.10.2015 a 19.10.2016) tenha sido de 14\%. C
   
 \end{itemize}
 
+\textbf{Solução}\par
+
+Passo 1: entrada de dados:\par
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{dataEmiss} \hlkwb{<-} \hlstr{'2015-10-20'}   \hlcom{# Data de emissão.}
+\hlstd{dataVenci} \hlkwb{<-} \hlstr{'2017-10-19'}   \hlcom{# Data de vencimento.}
+\hlstd{dataNegoc} \hlkwb{<-} \hlstr{'2016-10-19'}   \hlcom{# Data de negociação.}
+\hlstd{spreadCre} \hlkwb{<-} \hlnum{0.002325100}    \hlcom{# Spread de crédito.}
+\hlstd{taxaSelic} \hlkwb{<-} \hlnum{0.140000000}    \hlcom{# Taxa Selic.}
+\hlstd{qLetFinTe} \hlkwb{<-} \hlnum{1}              \hlcom{# Quantidade de Letras Financeiras do Tesouro.}
+\hlstd{valNomAtu} \hlkwb{<-} \hlnum{1000.000000}    \hlcom{# Valor nominal atualizado do título.}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
 
 
 
 
+Passo 2: cálculo do valor final de resgate:\par
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{valFinRes} \hlkwb{=} \hlstd{( valNomAtu} \hlopt{+} \hlstd{valNomAtu} \hlopt{*} \hlstd{taxaSelic )} \hlopt{/} \hlstd{(} \hlnum{1} \hlopt{+} \hlstd{spreadCre )}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+Passo 3: cálculo da rentabilidade:
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{rentabili} \hlkwb{=} \hlstd{( valFinRes} \hlopt{/} \hlstd{valNomAtu )} \hlopt{-} \hlnum{1}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\textbf{Respostas}\par
+
+Valor final de resgate: R\$1137.356.
+
+Rentabilidade: 13.73555\%.
 
 
-
-
-
-1137.3555346
-
+%format(signif(divPaymen*(1+divSuGrRa)^i,6),nsmall = 6)
 
 \end{document}
 
