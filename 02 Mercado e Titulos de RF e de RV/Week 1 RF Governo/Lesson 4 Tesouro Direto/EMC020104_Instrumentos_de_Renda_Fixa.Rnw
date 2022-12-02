@@ -1,0 +1,98 @@
+\documentclass{article}
+
+\include{preamble}
+
+<<setup-options,echo=FALSE,eval=TRUE>>=
+knitr::opts_chunk$set(
+  size = "normalsize",
+  eval = TRUE,
+  echo = FALSE,
+  results = "markup",
+  comment = "",
+  fig.width = 5,
+  fig.height = 5,
+  fig.align = "center",
+  options(scipen=999)
+  )
+@
+
+\title{Tesouro Direto}
+\author{FIA Business School}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introdução}
+
+\section*{Regras do Tesouro Direto}
+
+\section*{Taxas}
+
+\end{document}
+
+% \begin{itemize}
+% 
+%   \item \textbf{LOREM IPSUM}. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+%   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+% 
+%   \item \textbf{LOREM IPSUM}. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+%   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+% 
+% \end{itemize}
+
+% \begin{table}[H]
+% \centering
+% \caption{Diferentes tipos de Operadores.}
+% \resizebox{\textwidth}{!}{%
+% \begin{tabular}{ |p{2cm}|p{2cm}|  }
+%  \hline
+%  \multicolumn{2}{|c|}{Subsistema Operativo}\\
+%  \hline
+%  \textbf{Espécie}                                                               & \textbf{Operadores (atividades)}\\
+%  \hline
+%  \multicolumn{1}{|l|}{Instituição Financeira Captadora de Depósito à Vista}     & \multicolumn{1}{l|}{Bancos Comerciais}\\
+%  \hline
+%  \multicolumn{1}{|l|}{Cooperativas de Crédito}                                  & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Agentes Especiais:}                                       & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{$\bullet$ Banco do Brasil}                                & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{$\bullet$ Banco do Nordeste}                              & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{$\bullet$ Banco da Amazônia}                              & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{$\bullet$ Caixa Econônica Federal}                        & \multicolumn{1}{l|}{}\\
+%  \hline
+%  \multicolumn{1}{|l|}{\textbf{Demais Instituições Financeiras}}                 & \multicolumn{1}{l|}{Banco de Investimento}\\
+%  \multicolumn{1}{|l|}{Banco de Câmbio}                                          & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Associações de Poupança e Empréstimo}                     & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Sociedade de Crédito Imobiliário}                         & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Companhias Hipotecárias}                                  & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Sociedade de Crédito, Financiamento e Investimento}       & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Sociedade de Crédito ao Microempreendedor}                & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Agência de Fomento (governo Estadual)}                    & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Banco de Desenvolvimento (governo Estadual)}              & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{BNDES (Agente Especial do governo Federal)}               & \multicolumn{1}{l|}{}\\
+%  \hline
+%  \multicolumn{1}{|l|}{\textbf{Banco Múltiplo}}                                & \multicolumn{1}{l|}{Banco Múltiplo}\\
+%  \hline
+%  \multicolumn{1}{|l|}{\textbf{Outros Intermediários Financeiros}} & \multicolumn{1}{l|}{Sociedade de Arrendamento Mercantil (Leasing)}\\
+%  \multicolumn{1}{|l|}{Administradoras de Consórcios}                            & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Sociedade Corretoras de Câmbio}                           & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Sociedade Corretoras de Títulos e Valores Mobiliários}    & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Sociedade Distribuidora de Títulos e Valores Mobiliários} & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{\textbf{Auxiliares Financeiros}}                          & \multicolumn{1}{l|}{Bolsa de Valores}\\
+%  \multicolumn{1}{|l|}{Bolsa de Mercadorias}                                     & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Bolsa de Futuros}                                         & \multicolumn{1}{l|}{}\\
+%  \multicolumn{1}{|l|}{Sistemas e Câmaras de Liquidação e Custódia}              & \multicolumn{1}{l|}{}\\
+%  \hline
+% \end{tabular}}
+% \end{table}
+
+Ofertas públicas por leilão, ofertas públicas sem a realização de leilão e emissões 
+para atender as necessidades específicas determinadas em lei.
+
+Quando acreditar na redução das taxas de juros, por ser um título prefixado, 
+adquirido quando a taxa de juros estava em patamares mais altos.
+
+o preço pelo qual o título está sendo negociado. É o valor presente dos fluxos 
+de caixa futuros, descontadas as taxas de juros do mercado. 
+
+são títulos prefixados. 
